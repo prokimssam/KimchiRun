@@ -4,11 +4,12 @@ public class EnemyController : MonoBehaviour
 {
     void Start()
     {
-        
+        TakeDamange(10);
     }
 
-    void Update()
+    public void TakeDamange(int damage)
     {
-        
+        Debug.Log("damage " + damage);
+        return;
     }
 }
